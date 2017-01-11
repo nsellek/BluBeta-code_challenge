@@ -3,6 +3,11 @@
   max-width: 100% !important;
 }
 
+.width80{
+  width: 85% !important;
+  max-width: 100% !important;
+}
+
 .full-height {
   min-height: 94vh !important;
 }
@@ -11,8 +16,20 @@
   background-color: rgb(96, 179, 185) !important;
 }
 
+.ember {
+  background-color: rgb(222, 78, 61) !important;
+}
+
+.link-ember {
+  color: rgb(222, 78, 61) !important;
+}
+
 .link-aqua{
   color: rgb(96, 179, 185) !important;
+}
+
+.png-z-depth-2 {
+  filter: drop-shadow(6px 6px 3px rgba(0,0,0,0.5));
 }
 
 .spin-fade-in {
