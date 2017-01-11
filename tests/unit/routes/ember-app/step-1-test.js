@@ -1,6 +1,6 @@
 import { moduleFor, test } from 'ember-qunit';
 
-moduleFor('route:step-1', 'Unit | Route | step 1', {
+moduleFor('route:ember-app/step-1', 'Unit | Route | ember app/step 1', {
   // Specify the other units that are required for this test.
   // needs: ['controller:foo']
 });

@@ -11,6 +11,10 @@
   background-color: rgb(96, 179, 185) !important;
 }
 
+.link-aqua{
+  color: rgb(96, 179, 185) !important;
+}
+
 .spin-fade-in {
   opacity: 0;
   animation: spinfadein 3s;
