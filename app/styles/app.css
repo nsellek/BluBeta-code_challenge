@@ -3,8 +3,19 @@
   max-width: 100% !important;
 }
 
+.full-height {
+  min-height: 94vh !important;
+}
+
+.aqua{
+  background-color: rgb(96, 179, 185) !important;
+}
+
 .spin-fade-in {
+  opacity: 0;
   animation: spinfadein 3s;
+  animation-delay: .5s;
+  animation-fill-mode: forwards;
 }
 
 @keyframes spinfadein{
