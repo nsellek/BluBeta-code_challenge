@@ -1,0 +1,13 @@
+.width95{
+  width: 95% !important;
+  max-width: 100% !important;
+}
+
+.spin-fade-in {
+  animation: spinfadein 3s;
+}
+
+@keyframes spinfadein{
+  from {transform: rotate(0deg); opacity: 0;}
+  to {transform: rotate(360deg); opacity: 1;}
+}
