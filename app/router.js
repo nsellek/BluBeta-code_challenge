@@ -10,6 +10,7 @@ Router.map(function() {
   this.route('home', {path: "/"});
   this.route('ember_app', function() {
     this.route('step_1');
+    this.route('step_2');
   });
 });
 
