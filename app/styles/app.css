@@ -39,7 +39,17 @@
   animation-fill-mode: forwards;
 }
 
+.spin-grow{
+  animation: spingrowin 2s;
+  animation-fill-mode: forwards;
+}
+
 @keyframes spinfadein{
   from {transform: rotate(0deg); opacity: 0;}
   to {transform: rotate(360deg); opacity: 1;}
+}
+
+@keyframes spingrowin{
+  from {transform: scale(0,0) rotate(0deg); opacity: 0;}
+  to {transform: scale(1,1) rotate(360deg); opacity: 1;}
 }
