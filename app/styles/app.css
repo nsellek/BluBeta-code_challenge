@@ -9,7 +9,7 @@
 }
 
 .width10{
-  width: 10%;
+  width: 10vw;
 }
 
 .width70{
@@ -64,7 +64,7 @@
 
 @media (max-width: 375px) {
   .width10{
-    width: 35%;
+    width: 35vw;
   }
 
   .width70{
