@@ -11,6 +11,7 @@ Router.map(function() {
   this.route('ember_app', function() {
     this.route('step_1');
     this.route('step_2');
+    this.route('step_3');
   });
 });
 

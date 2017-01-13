@@ -1,1 +1,39 @@
-{{outlet}}
+<div class="container width80">
+  <div class="row">
+    <div class="col s12">
+      <h3>Step 2 - Starting the sever</h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s12">
+      <ul class="browser-default">
+        <li>Let's make sure everything is working properly.</li>
+        <li>First you have to <code>cd</code> into the app:
+          <ul class="browser-default">
+            <li><code>cd &lt;app name&gt; </code></li>
+          </ul>
+        </li>
+        <li>Up next we need to actually start your server:
+          <ul class="browser-default">
+            <li><code>ember server</code> or <code>ember s</code> for short</li>
+          </ul>
+        </li>
+        <li>You should see the this output:
+          <ul class="browser-default">
+            <li>
+              <pre><code>Livereload server on http://localhost:49152<br>Serving on http://localhost:4200/</code></pre>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s12 center-align">
+      {{#link-to "ember_app.step_3" class="btn waves-effect waves-light ember"}}
+      Next Step
+      <i class="material-icons right">navigate_next</i>
+      {{/link-to}}
+    </div>
+  </div>
+</div>
