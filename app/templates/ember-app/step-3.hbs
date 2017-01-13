@@ -2,4 +2,40 @@
   <div class="row">
     <h4>Step 3 - Generating a Template</h4>
   </div>
+  <div class="row">
+    <div class="col s12 m7 l7">
+      <ul class="browser-default">
+        <li>Let's create a new template using the ember generate command.
+          <ul class="browser-default">
+            <li><code>ember generate template application</code></li>
+          </ul>
+        </li>
+        <li>This creates a <code>application.hbs</code> file in your templates folder</li>
+        <li>Let's open <code>app/templates/application.hbs</code> in your text editor.</li>
+        <li>You should see something like this:
+          <ul class="browser-default">
+            <li><code>&#123;&#123;outlet&#125;&#125;</code></li>
+          </ul>
+        </li>
+        <li>If you go ahead and add <code>&lt;h1&gt;Hello world!&lt;h1&gt;</code> at the top of the file and save.</li>
+        <li>You should see that the welcome page has been replaced by "Hello World!".</li>
+        <li>You also added an <code>&#123;&#123;outlet&#125;&#125;</code> to this page, which means that any nested route will be rendered in that place.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col s6 right-align">
+      {{#link-to "ember_app.step_2" class="btn waves-effect waves-light ember"}}
+      Previous Step
+      <i class="material-icons left">navigate_before</i>
+      {{/link-to}}
+    </div>
+    <div class="col s6 left-align">
+      {{#link-to "ember_app.step_4" class="btn waves-effect waves-light ember"}}
+      Next Step
+      <i class="material-icons right">navigate_next</i>
+      {{/link-to}}
+    </div>
+  </div>
 </div>

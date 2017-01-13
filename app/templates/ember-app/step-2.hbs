@@ -5,7 +5,7 @@
     </div>
   </div>
   <div class="row">
-    <div class="col s12">
+    <div class="col s12 m7 l7">
       <ul class="browser-default">
         <li>Let's make sure everything is working properly.</li>
         <li>First you have to <code>cd</code> into the app:
@@ -25,11 +25,18 @@
             </li>
           </ul>
         </li>
+        <li>Open <code>http://localhost:4200</code> in your browser of choice. You should see an Ember welcome page and not much else.</li>
       </ul>
     </div>
   </div>
   <div class="row">
-    <div class="col s12 center-align">
+    <div class="col s6 right-align">
+      {{#link-to "ember_app.step_1" class="btn waves-effect waves-light ember"}}
+      Previous Step
+      <i class="material-icons left">navigate_before</i>
+      {{/link-to}}
+    </div>
+    <div class="col s6 left-align">
       {{#link-to "ember_app.step_3" class="btn waves-effect waves-light ember"}}
       Next Step
       <i class="material-icons right">navigate_next</i>
