@@ -8,6 +8,14 @@
   max-width: 100% !important;
 }
 
+.width10{
+  width: 10%;
+}
+
+.width70{
+  width: 25%;
+}
+
 .full-height {
   min-height: 94vh !important;
 }
@@ -52,4 +60,14 @@
 @keyframes spingrowin{
   from {transform: scale(0,0) rotate(0deg); opacity: 0;}
   to {transform: scale(1,1) rotate(360deg); opacity: 1;}
+}
+
+@media (max-width: 375px) {
+  .width10{
+    width: 35%;
+  }
+
+  .width70{
+    width: 70%;
+  }
 }
