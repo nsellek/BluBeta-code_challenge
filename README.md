@@ -17,8 +17,7 @@ You will need the following things properly installed on your computer.
 
 * `git clone <repository-url>` this repository
 * `cd blu-beta-code-challenge`
-* `npm install`
-* `bower install`
+* `npm install && bower install`
 
 ## Running / Development
 
@@ -29,24 +28,7 @@ You will need the following things properly installed on your computer.
 
 Make use of the many generators for code, try `ember help generate` for more details
 
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+##Improvements
+* Work on making the mobile responsiveness work a bit better and on more devices
+* Add the ability for the user to choose from more apps i.e. allow them to choose between ember and React
+* Add page transition animations and partial animations for more flashiness 
