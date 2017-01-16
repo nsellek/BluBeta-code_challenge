@@ -1,0 +1,49 @@
+<div class="container width80">
+  <div class="row">
+    <h4>Step 4 - Generating a Route</h4>
+  </div>
+  <div class="row">
+    <div class="col s12 m5 l5">
+      <ul class="browser-default">
+        <li>Let's now generate a route so you can have different pages.<ul class="browser-default">
+          <li><code>ember generate route &lt;name of route&gt;</code></li>
+        </ul></li>
+        <li>You should see the following output: <ul class="browser-default">
+          <li><pre><code>installing route
+  create app/routes/&lt;name of route&gt;.js
+  create app/templates/&lt;name of route&gt;.hbs
+updating router
+  add route &lt;name of route&gt;
+installing route-test
+  create tests/unit/routes/&lt;name of route&gt;-test.js
+          </code></pre></li>
+        </ul></li>
+      </ul>
+    </div>
+    <div class="col s12 m5 l5">
+        <ul class="browser-default">
+          <li>With this output ember is telling us that we:<ol class="browser-default">
+            <li>A template to be displayed when the user visits <code>/&lt;name of route&gt;</code>.</li>
+            <li>A Route object that fetches the <code>model</code> used by that template.</li>
+            <li>An entry in the application's router (located in <code>app/router.js</code>).</li>
+            <li>A unit test for this route.</li>
+          </ol></li>
+          <li>If you add <code>Hello</code> to the new template that you just created and visit <code>localhost:4200/&lt;name of route&gt;</code> you should see <code>Hello</code> pop up.</li>
+        </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s6 right-align">
+      {{#link-to "ember_app.step_3" class="btn waves-effect waves-light ember"}}
+      Previous Step
+      <i class="material-icons left">navigate_before</i>
+      {{/link-to}}
+    </div>
+    <div class="col s6 left-align">
+      {{#link-to "ember_app.final" class="btn waves-effect waves-light ember"}}
+      Next Step
+      <i class="material-icons right">navigate_next</i>
+      {{/link-to}}
+    </div>
+  </div>
+</div>

@@ -12,6 +12,7 @@ Router.map(function() {
     this.route('step_1');
     this.route('step_2');
     this.route('step_3');
+    this.route('step_4');
   });
 });
 
